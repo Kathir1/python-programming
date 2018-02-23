@@ -1,5 +1,6 @@
-num=int(input("Please Enter a Number : "));
-if(num%2==0):
-   print("Even number")
+num = int(input("Enter a number: "))
+number= num % 2
+if number > 0:
+    print("odd number.")
 else:
-   print("Odd number")
+    print("even number.")
